@@ -1,0 +1,9 @@
+C:\Users\DB\documents\visual studio 2015\Projects\TheLiberator\TheLiberator\bin\Debug\TheLiberator.exe.config
+C:\Users\DB\documents\visual studio 2015\Projects\TheLiberator\TheLiberator\bin\Debug\TheLiberator.exe
+C:\Users\DB\documents\visual studio 2015\Projects\TheLiberator\TheLiberator\bin\Debug\TheLiberator.pdb
+C:\Users\DB\documents\visual studio 2015\Projects\TheLiberator\TheLiberator\obj\Debug\TheLiberator.mainPlaygroud.resources
+C:\Users\DB\documents\visual studio 2015\Projects\TheLiberator\TheLiberator\obj\Debug\TheLiberator.Properties.Resources.resources
+C:\Users\DB\documents\visual studio 2015\Projects\TheLiberator\TheLiberator\obj\Debug\TheLiberator.csproj.GenerateResource.Cache
+C:\Users\DB\documents\visual studio 2015\Projects\TheLiberator\TheLiberator\obj\Debug\TheLiberator.exe
+C:\Users\DB\documents\visual studio 2015\Projects\TheLiberator\TheLiberator\obj\Debug\TheLiberator.pdb
+C:\Users\DB\documents\visual studio 2015\Projects\TheLiberator\TheLiberator\obj\Debug\TheLiberator.csprojResolveAssemblyReference.cache

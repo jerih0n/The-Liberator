@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{07B9FBA6-FEE4-4688-B381-9DBE7F0E7E22}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TheLiberator</RootNamespace>
+    <AssemblyName>TheLiberator</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ak47.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BloodSplat.cs" />
+    <Compile Include="CustomCursor.cs" />
+    <Compile Include="FinalPicture.cs" />
+    <Compile Include="GunCrosshair.cs" />
+    <Compile Include="ImageBase.cs" />
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuControls.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Target.cs" />
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reset_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reset_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Start_Black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Start_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gun2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gun_NoBg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finalGun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final_Gun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GunIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sniper.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sniper-fire.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reloading-sound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pump shotgun sound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\average.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Berserker.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JediMaster.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Killer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Noob.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noobpp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OMGNOOB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rebel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TheChosenOne.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TheLiberator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ak47.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ak47.ico" />
+    <None Include="Resources\explosion.jpg" />
+    <None Include="Resources\backMusicBlade.wav" />
+    <None Include="Resources\robot8.jpg" />
+    <None Include="Resources\robot7.jpg" />
+    <None Include="Resources\robot6.jpg" />
+    <None Include="Resources\robot5.jpg" />
+    <None Include="Resources\robot4.jpg" />
+    <None Include="Resources\robot3.jpg" />
+    <None Include="Resources\robot2.jpg" />
+    <None Include="Resources\robot1.png" />
+    <None Include="Resources\BackgroindImg.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
